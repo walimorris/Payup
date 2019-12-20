@@ -30,10 +30,10 @@ to close the command before sending it off to your system to send that sweet pop
 
 You'll need to link lncurses when you compile or else gcc will throw a laundry list of errors. 
 To compile a C program with ncurses, it should look like this (PayUp.c as example): 
-gcc PayUp.c -o PayUp -lncurses
+* gcc PayUp.c -o PayUp -lncurses
 
 To run: 
-./PayUp
+* ./PayUp
 
 ![PAYUP!](Notify.png)
 
