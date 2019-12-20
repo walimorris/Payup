@@ -51,7 +51,6 @@ void fileUpdate()
         if(ch == 'n' || ch == 'N')
 		exit(1); 
 }
-	
 void startup(void)
 { 
 	char ch;  	
