@@ -14,7 +14,7 @@ become very comfortable in a Linux environment, so some of my first programs hav
 utilized command line protocols and libraries, like ncurses and TCP utilities.
 
 This program is mainly the setup for the pop-up notification, where I'll then use the notify-send 
-command in a small script to automate the dailey notifications. Notify send is a cool Linux command
+command in a small script to automate the daily notifications. Notify send is a cool Linux command
 I ran into after researching more online about C. This features allows you to communicate with your 
 Linux system to send sweet pop-up notifications. This should already be installed on your Linux system. 
 If not, you can use: 
