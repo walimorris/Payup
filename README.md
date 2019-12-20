@@ -28,7 +28,7 @@ If not, you can use:
 to close the command before sending it off to your system to send that sweet pop-up notification. 
 * You can view an example found in the desktop_popup.c file.
 
-You'll need to link lncurses when you compile or else gcc will throw a laundry list of errors. 
+You'll need to link ncurses when you compile or else gcc will throw a laundry list of errors. 
 To compile a C program with ncurses, it should look like this (PayUp.c as example): 
 * gcc PayUp.c -o PayUp -lncurses
 
