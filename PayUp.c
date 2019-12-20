@@ -1,8 +1,8 @@
 /*******************************************************************
  * Filename    : PayUp.c
- * Description : Bill Notifier for PC
+ * Description : A daily bill notifier for PC
  * Author      : Wali Morris 
- * Created     : 20-12-19
+ * Created     : 20-12-2019
 *******************************************************************/
 
 #include<stdlib.h>
