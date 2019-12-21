@@ -7,6 +7,12 @@ NOTE: This is my first, small, C programming project after a few weeks of self s
 I wanted to put the things I've learned to the test. I'm still getting the hang of C,
 although I do enjoy using it as a programming lanaguage. It can be really tricky at times. 
 
+ADDITIONS: This project is not completed. This is my first upload and as additions are completed 
+this list will be updated along with dependencies (there will be a small few). 
+* Complete loop structures and error handling
+* A small script to automate running the program when PC is on
+* The ability to process multiple bill procedures and notifications
+
 "They" say, in the beginning, to make things that you can use daily. So, here it is, a 
 program that'll perform daily bill notification pop ups directly on  my personal PC. 
 I ran into the ncurses library and figured I'd give it a shot. One of my goals is to 
