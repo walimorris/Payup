@@ -1,3 +1,5 @@
+#! /usr/bin/env python3
+
 import notify2
 import sys
 import os
