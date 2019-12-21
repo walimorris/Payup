@@ -1,5 +1,6 @@
 import notify2
 import sys
+import os
 
 def main():
     # First we'll read bill information and store it
