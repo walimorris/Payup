@@ -18,7 +18,7 @@ this list will be updated along with dependencies (there will be a small few).
 program that'll perform daily bill notification pop ups directly on  my personal PC. 
 I ran into the ncurses library and figured I'd give it a shot. One of my goals is to 
 become very comfortable in a Linux environment, so some of my first programs have 
-utilized command line protocols and libraries, like ncurses and TCP utilities.
+utilized command line protocols and libraries, like ncurses and TCP utilities, and notify2.
 
 This program is mainly the setup for the pop-up notification, where I'll then use the notify-send 
 command in a small script to automate the daily notifications. Notify send is a cool Linux command
