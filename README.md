@@ -45,7 +45,7 @@ To run:
 ![PAYUP!](Notify.png)
 
  
- NOTIFY2
+ PayUp Notifications
  ![PayUP!](notification2.png)
  
 Notify2 is a tool brought to the community by the developers of the Galago framework. The lead developer 
