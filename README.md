@@ -46,6 +46,19 @@ To run:
 
  
  NOTIFY2
- ![NOTIFY2!](notification2.png)
+ ![PayUP!](notification2.png)
+ 
+Notify2 is a tool brought to the community by the developers of the Galago framework. The lead developer 
+is Christain Hammond, but this team has brought a really cool framework to the community. Galago, and notify2, 
+is described as a desktop presence framework, designed to transmit presence information between programs. 
+Saying that, this is exactly what I've done building the information processing with C and ncurses then using a 
+small Python3 script to use notify2 for the desktop notifications. There are many features to use with notify2
+and I've barely touched the service with PayUp. So Thank you to Christain and their team! 
+
+Installing notify2 from the command line and viewing examples: 
+* Sudo apt install python3-notify 2
+* Once installed you can view examples here: /usr/share/doc/python3-notify2/examples/
+
+![PayUP!](notification1.png)
 
 
