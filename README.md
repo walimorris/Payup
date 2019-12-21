@@ -12,6 +12,7 @@ this list will be updated along with dependencies (there will be a small few).
 * Complete loop structures and error handling
 * A small script to automate running the program when PC is on
 * The ability to process multiple bill procedures and notifications
+* Creative art on the startup window using ncurses
 
 "They" say, in the beginning, to make things that you can use daily. So, here it is, a 
 program that'll perform daily bill notification pop ups directly on  my personal PC. 
