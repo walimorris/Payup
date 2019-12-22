@@ -1,5 +1,4 @@
-# Payup
-# By: Wali Morris 
+# Payup: A small desktop notification program  
 
 A C project
 By: Wali Morris 
