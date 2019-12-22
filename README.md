@@ -2,7 +2,7 @@
 By: Wali Morris 
 Dec 22, 2019
 
-**NOTICE: This is my first, small, C programming project after a few weeks of self study.
+**NOTICE**: This is my first, small, C programming project after a few weeks of self study.
 I wanted to put the things I've learned to the test. I'm still getting the hang of C,
 although I do enjoy using it as a programming lanaguage. It can be really tricky at times. 
 There is also a small Bash and Python script to automate a few processes for this program. 
@@ -11,9 +11,9 @@ pretty language and allows a great amount of expression which I thought would be
 perfect for what it's used for. I expanded this program with Python to format the desktop 
 notification, which completes its role well. This project is not fully complete and will 
 be something I update as I learn more about utilizing the Linux command line, and the 
-languages I've used in this project.** 
+languages I've used in this project.
 
-ADDITIONS: There's a lot to be updated to make this project exactly as I want it. My goal
+**ADDITIONS**: There's a lot to be updated to make this project exactly as I want it. My goal
 is to make this project easy to use, if anyone other than myself happens to use Payup.
 Please refer to the issues page for more details. 
 
@@ -28,7 +28,9 @@ command is used. Bash is used to automate periodically sending the desktop notif
 command (short for no hangup) that will allow the process to hang. Unless notifications are sent in short
 increments, it won't interrupt run time or process speed. After this program is run you'll see a file 
 within the directory this program lives that's called nohup.out, you can view this with: 
+
 `vi nohup.out`
+
 Alternatively you can view present and past processes with: 
 
 `lsof | grep nohup.out` 
@@ -37,11 +39,11 @@ Notify send is a cool Linux command I ran into after researching more online abo
 allows you to communicate with your Linux system to send sweet pop-up notifications. This should 
 already be installed on your Linux system. If not, you can use: 
 
-* UBUNTU: `sudo apt-get install notify-osd`
+**UBUNTU**: `sudo apt-get install notify-osd`
 
-* DEBIAN: `apt-get install libnotify-bin`
+**DEBIAN**: `apt-get install libnotify-bin`
 
-NOTICE: I ran the second command on my machine running UBUNTU 18.04 and everything is still in tact. 
+**NOTICE**: I ran the second command on my machine running UBUNTU 18.04 and everything is still in tact. 
 
 On the command line: 
 
@@ -56,10 +58,11 @@ To compile a C program with ncurses, it should look like this (Payup.c as exampl
 
 `gcc Payup.c -o Payup -lncurses`
 
-TO RUN: 
+**TO RUN**: 
 All of the dependencies are automated through the bash script on run up to ease the process, if Payup is 
 run for the first time, the program will be compiled and all scripts will be made executable. 
-* Please see Instructions below 
+
+**Please see Instructions below** 
 
 ![PAYUP!](Notify.png)
 
@@ -82,7 +85,7 @@ Once installed you can view examples here: `/usr/share/doc/python3-notify2/examp
 ![PayUP!](notification1.png)
 
 
-INSTRUCTIONS: 
+**INSTRUCTIONS**: 
 
 From the command line:
 ```
