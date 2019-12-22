@@ -4,9 +4,9 @@ import notify2
 import sys
 import os
 """
-First we'll read the bill information and store it. Second, we'll create a
-formatted piece of text for the notification. We'll send the notification
-to the desktop using notify2, and lastly automate sending notifications.
+First we'll read the bill information and store it. Second, we'll create 
+a formatted piece of text for the notification. Lastly, we'll send the 
+notification to the desktop using notify2.
 """
 def main():
     bill = fetch()
