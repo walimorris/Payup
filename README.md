@@ -28,13 +28,11 @@ command is used. Bash is used to automate periodically sending the desktop notif
 command (short for no hangup) that will allow the process to hang. Unless notifications are sent in short
 increments, it won't interrupt run time or process speed. After this program is run you'll see a file 
 within the directory this program lives that's called nohup.out, you can view this with: 
-
-``` vi nohup.out
-```
+`vi nohup.out`
 Alternatively you can view present and past processes with: 
-```
-lsof | grep nohup.out or the 'top' command to view real time processes 
-```
+
+`lsof | grep nohup.out` 
+
 Notify send is a cool Linux command I ran into after researching more online about C. This features 
 allows you to communicate with your Linux system to send sweet pop-up notifications. This should 
 already be installed on your Linux system. If not, you can use: 
@@ -56,8 +54,7 @@ You can view an example found in the desktop_popup.c file.
 You'll need to link ncurses when you compile or else gcc will throw a laundry list of errors. 
 To compile a C program with ncurses, it should look like this (Payup.c as example): 
 
-```gcc Payup.c -o Payup -lncurses
-```
+`gcc Payup.c -o Payup -lncurses`
 
 TO RUN: 
 All of the dependencies are automated through the bash script on run up to ease the process, if Payup is 
@@ -77,8 +74,9 @@ with C and ncurses then using a small Python3 script to use notify2 for the desk
 features to use with notify2 and I've barely touched the surface with Payup. So, Thank you to Christain and his team! 
 
 Installing notify2 from the command line and viewing examples: 
-```sudo apt install python3-notify 2
-```
+
+`sudo apt install python3-notify 2`
+
 Once installed you can view examples here: `/usr/share/doc/python3-notify2/examples/`
 
 ![PayUP!](notification1.png)
