@@ -50,7 +50,7 @@ On the command line:
 You can view an example found in the desktop_popup.c file.
 
 You'll need to link ncurses when you compile or else gcc will throw a laundry list of errors. 
-To compile a C program with ncurses, it should look like this (PayUp.c as example): 
+To compile a C program with ncurses, it should look like this (Payup.c as example): 
 * gcc Payup.c -o Payup -lncurses
 
 TO RUN: 
