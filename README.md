@@ -1,6 +1,4 @@
 # Payup: A small desktop notification program  
-
-A C project
 By: Wali Morris 
 
 NOTE: This is my first, small, C programming project after a few weeks of self study.
