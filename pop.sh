@@ -18,7 +18,7 @@ setup () {
     sudo apt-get install libncurses5-dev libncursesw5-dev
     sudo apt-get install notify-osd
     sudo apt install python3-notify2
-    gcc PayUp.c -o PayUp -lncurses
+    gcc Payup.c -o Payup -lncurses
     chmod +x notify_script.py
     echo dependencies installed..
 }
