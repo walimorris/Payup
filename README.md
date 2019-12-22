@@ -54,7 +54,7 @@ To compile a C program with ncurses, it should look like this (Payup.c as exampl
 * gcc Payup.c -o Payup -lncurses
 
 TO RUN: 
-All of the dependencies are automated through the bash script on run up to ease the process, if PayUp is 
+All of the dependencies are automated through the bash script on run up to ease the process, if Payup is 
 run for the first time, the program will be compiled and all scripts will be made executable. 
 * Please see Instructions below 
 
@@ -68,12 +68,15 @@ Notify2 is a tool brought to the community by the developers of the Galago frame
 is Christain Hammond. Galago, and notify2, is described as a desktop presence framework, designed to transmit 
 presence information between programs. Saying that, this is how I've planned building the information processing 
 with C and ncurses then using a small Python3 script to use notify2 for the desktop notifications. There are many 
-features to use with notify2 and I've barely touched the surace with Payup. So, Thank you to Christain and his team! 
+features to use with notify2 and I've barely touched the surface with Payup. So, Thank you to Christain and his team! 
 
 Installing notify2 from the command line and viewing examples: 
-* Sudo apt install python3-notify 2
+* sudo apt install python3-notify 2
 * Once installed you can view examples here: /usr/share/doc/python3-notify2/examples/
 
 ![PayUP!](notification1.png)
 
+
+INSTRUCTIONS: 
+From the command line: 
 
