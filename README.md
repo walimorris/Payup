@@ -29,6 +29,7 @@ command (short for no hangup) that will allow the process to hang. Unless notifi
 increments, it won't interrupt run time or process speed. After this program is run you'll see a file 
 within the directory this program lives that's called nohup.out, you can view this with: 
 * vi nohup.out
+
 Alternatively you can view present and past processes with: 
 * lsof | grep nohup.out or the 'top' command to view real time processes 
 
