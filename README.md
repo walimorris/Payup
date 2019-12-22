@@ -39,9 +39,12 @@ already be installed on your Linux system. If not, you can use:
 
 * UBUNTU: sudo apt-get install notify-osd
 * DEBIAN: apt-get install libnotify-bin
-* NOTICE: I ran the second command on my machine running UBUNTU 18.04 and everything is still in tact. 
 
-* On the command line: notify-send "Hello, World!"
+NOTICE: I ran the second command on my machine running UBUNTU 18.04 and everything is still in tact. 
+
+On the command line: 
+
+* notify-send "Hello, World!"
 * In a c-program, you'll need to use the \" escape character followed by \ escape and two double quotes
   to close the command before sending it off to your system to send that sweet pop-up notification. 
 You can view an example found in the desktop_popup.c file.
