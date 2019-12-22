@@ -1,4 +1,5 @@
 # Payup: A small desktop notification program  
+[nohup](http://man7.org/linux/man-pages/man1/nohup.1.html)
 By: Wali Morris 
 Dec 22, 2019
 
