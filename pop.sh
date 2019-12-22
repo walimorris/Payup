@@ -9,7 +9,6 @@
 # or you can email me directly at walimmorris@gmail.com
 # initial setup: Dec 21, 2019 
 
-
 w="60m"   #1 hour 
 x="120m"  #2 hours
 y="180m"  #3 hours 
@@ -48,9 +47,7 @@ while [ $hour -lt 0 ] || [ $hour -gt 4 ]; do
     echo In hours[1 thru 4]: How often should you be notified? [ex:2]
     read hour	    
 done
-
 ./PayUp
-
 if [ $hour == 1 ]; then
     rest $w 
 elif [ $hour == 2 ]; then
@@ -60,8 +57,3 @@ elif [ $hour == 3 ]; then
 else
     rest $z
 fi 
-
-
-
- 
-
