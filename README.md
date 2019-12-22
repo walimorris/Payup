@@ -86,5 +86,4 @@ From the command line:
 * cd Payup 
 * chmod +x pop.sh
 * nohup ./pop.sh & 
-* 
 
