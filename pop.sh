@@ -1,13 +1,12 @@
 #!/bin/bash
 
-# Currently PayUp supports UBUNTU 18.04 and Python3. There will be updates 
-# periodically and at some point this script will be executed through crontab 
-# for better automation. This script takes care of setting up your program 
-# dependencies for the first time and is meant to be run directly. Currently, 
-# this script should be run from the command line everytime this program wants 
-# be carried out. Please see the README docs for more information on setting up 
-# or you can email me directly at walimmorris@gmail.com
-# initial setup: Dec 21, 2019 
+# Currently PayUp supports UBUNTU 18.04 and Python3. There will be updates periodically. Also, at some point 
+# this script will be executed through crontab for better automation. This script takes care of setting up 
+# program dependencies for the first time and is meant to be run directly. Currently, this script should be
+# run from the command line everytime this program should be carried out. Please see the README docs for  
+# more information on setting up.
+# Email: walimmorris@gmail.com
+# Initial Setup: Dec 21, 2019 
 
 w="60m"   #1 hour 
 x="120m"  #2 hours
