@@ -6,8 +6,8 @@ Dec 22, 2019
 I wanted to put the things I've learned to the test. I'm still getting the hang of C,
 although I do enjoy using it as a programming lanaguage. It can be really tricky at times. 
 There is also a small Bash and Python script to automate a few processes for this program. 
-Getting the hang of Bash was more exciting than I thought it would be, it's actually a 
-pretty language and allows a great amount of expression which I thought would be 
+Getting the hang of Bash was more exciting than I thought it would be, it's actually a pretty
+bashful language and allows a great amount of expression which I thought would be 
 perfect for what it's used for. I expanded this program with Python to format the desktop 
 notification, which completes its role well. This project is not fully complete and will 
 be something I update as I learn more about utilizing the Linux command line, and the 
