@@ -1,5 +1,5 @@
 /*******************************************************************
- * Filename    : PayUp.c
+ * Filename    : Payup.c
  * Description : A daily bill notifier for PC
  * Author      : Wali Morris 
  * Created     : 20-12-2019
@@ -78,7 +78,7 @@ float computeBalance(float *balance, float *payment)
 void setup(void)
 { 	
 	int row, col; 
-	char payup[] = "PayUp";
+	char payup[] = "Payup";
         char info[] = "A Bill Notifier for your PC";
 	char use[] = "A project built for your personal use";
 	char author[] = "By: Wali Morris";   
