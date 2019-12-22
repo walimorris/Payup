@@ -89,13 +89,12 @@ Once installed you can view examples here: `/usr/share/doc/python3-notify2/examp
 
 From the command line:
 
-```mkdir <dir>
+```
+mkdir <dir>
 cd <dir>
 git clone https://github.com/walimorris/Payup.git
 cd Payup 
 chmod +x pop.sh
 nohup ./pop.sh & 
-```                                              
-                                              
-                                                                             
-                                              
+``` 
+<center>Made with :heart:</center>
