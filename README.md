@@ -1,4 +1,5 @@
-# Payup A Project By: Wali Morris 
+# Payup
+# By: Wali Morris 
 
 A C project
 By: Wali Morris 
