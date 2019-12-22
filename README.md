@@ -97,4 +97,4 @@ cd Payup
 chmod +x pop.sh
 nohup ./pop.sh & 
 ``` 
-<center>Made with :heart:</center>
+<center> Made with :heart: </center>
