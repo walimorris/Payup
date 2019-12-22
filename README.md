@@ -1,16 +1,20 @@
 # Payup: A small desktop notification program  
 By: Wali Morris 
 
-NOTE: This is my first, small, C programming project after a few weeks of self study.
+NOTICE: This is my first, small, C programming project after a few weeks of self study.
 I wanted to put the things I've learned to the test. I'm still getting the hang of C,
 although I do enjoy using it as a programming lanaguage. It can be really tricky at times. 
+There is also a small Bash and Python script to automate a few processes for this program. 
+Getting the hang of Bash was more exciting than I thought it would be, it's actually a 
+pretty exciting language and allows a great amount of expression which I thought would be 
+pefect for what it's used for. I expanded this program with Python to format the desktop 
+notification, which completes its role well. This project is not fully complete and will 
+be something I update as I learn more about utilizing the Linux command line, and the 
+languages I've used in this project. 
 
-ADDITIONS: This project is not completed. This is my first upload and as additions are completed 
-this list will be updated along with dependencies (there will be a small few). 
-* Complete loop structures and error handling
-* A small script to automate running the program when PC is on
-* The ability to process multiple bill procedures and notifications
-* Creative art on the startup window using ncurses
+ADDITIONS: There's a lot to be updated to make this project exactly as I want it. My goal
+is to make this project easy to use, if anyone other than myself happens to use PayUp.
+Please refer to the issues page for more details. 
 
 "They" say, in the beginning, to make things that you can use daily. So, here it is, a 
 program that'll perform daily bill notification pop ups directly on  my personal PC. 
@@ -18,11 +22,11 @@ I ran into the ncurses library and figured I'd give it a shot. One of my goals i
 become very comfortable in a Linux environment, so some of my first programs have 
 utilized command line protocols and libraries, like ncurses and TCP utilities, and notify2.
 
-This program is mainly the setup for the pop-up notification, where I'll then use the notify-send 
-command in a small script to automate the daily notifications. Notify send is a cool Linux command
-I ran into after researching more online about C. This features allows you to communicate with your 
-Linux system to send sweet pop-up notifications. This should already be installed on your Linux system. 
-If not, you can use: 
+Most of PayUp is written in C. Python is used to setupthe pop-up notification, where notify-send 
+command is used. Bash is used to automate periodically sending the desktop notification. 
+Notify send is a cool Linux command I ran into after researching more online about C. This features 
+allows you to communicate with your Linux system to send sweet pop-up notifications. This should 
+already be installed on your Linux system. If not, you can use: 
 
 * UBUNTU: sudo apt-get install notify-osd
 * DEBIAN: apt-get install libnotify-bin
@@ -30,15 +34,18 @@ If not, you can use:
 
 * On the command line: notify-send "Hello, World!"
 * In a c-program, you'll need to use the \" escape character followed by \ escape and two double quotes
-to close the command before sending it off to your system to send that sweet pop-up notification. 
+  to close the command before sending it off to your system to send that sweet pop-up notification. 
 * You can view an example found in the desktop_popup.c file.
 
 You'll need to link ncurses when you compile or else gcc will throw a laundry list of errors. 
 To compile a C program with ncurses, it should look like this (PayUp.c as example): 
 * gcc PayUp.c -o PayUp -lncurses
 
-To run: 
-* ./PayUp
+TO RUN: 
+All of the dependencies are automated through the bash script on run up to ease the process, if PayUp is 
+run for the first time, the program will be compiled and all scripts will be made executable. Naturally, 
+you can run the program with: 
+* chmod +x pop.sh && ./pop.sh
 
 ![PAYUP!](Notify.png)
 
