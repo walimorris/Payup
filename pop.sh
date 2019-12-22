@@ -46,7 +46,7 @@ while [ $hour -lt 0 ] || [ $hour -gt 4 ]; do
     echo In hours[1 thru 4]: How often should you be notified? [ex:2]
     read hour	    
 done
-./PayUp
+./Payup
 if [ $hour == 1 ]; then
     rest $w 
 elif [ $hour == 2 ]; then
