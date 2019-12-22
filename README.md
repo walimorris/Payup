@@ -96,5 +96,7 @@ cd Payup
 chmod +x pop.sh
 nohup ./pop.sh & 
 ```
-                                     Thank you for viewing my project!
-                                              Made with :heart: 
+                                              
+                                              
+                                              
+                                              
