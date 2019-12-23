@@ -40,7 +40,7 @@ if [ $startup == 'Y' ]; then
 fi
 hour=5
 while [ $hour -lt 0 ] || [ $hour -gt 4 ]; do
-	printf "In hours(1-4): How often should you be notified?"
+    printf "In hours(1-4): How often should you be notified?"
     read -r hour	    
 done
 ./Payup
