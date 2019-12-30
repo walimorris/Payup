@@ -3,12 +3,12 @@
 import notify2
 import sys
 import os
-"""
-First we'll read the bill information and store it. Second, we'll create 
-a formatted piece of text for the notification. Lastly, we'll send the 
-notification to the desktop using notify2.
-"""
+
 def main():
+    """ First we'll read the bill information and store it. Second, we'll create 
+    a formatted piece of text for the notification. Lastly, we'll send the 
+    notification to the desktop using notify2. 
+    """
     bill = fetch()
     notification = build(bill)
     notify(notification)
