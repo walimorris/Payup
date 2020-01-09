@@ -5,16 +5,23 @@ Dec 22, 2019
 **NOTICE**: This is my first, small, C programming project after a few weeks of self study.
 I wanted to put the things I've learned to the test. I'm still getting the hang of C,
 although I do enjoy using it as a programming lanaguage. It can be really tricky at times. 
+For this, I wanted a general understanding of C syntax and overall procedural approach to 
+programming. Pointers are still quite tricky, but I think this will help bridge skills as 
+I prepare for a Java programming class this winter semester. As for pointers, I'll work on it!
 There is also a small Bash and Python script to automate a few processes for this program. 
 Getting the hang of Bash was more exciting than I thought it would be, it's actually a pretty
 bashful :grinning: language and allows a great amount of expression which I thought would be 
-perfect for what it's used for. I expanded this program with Python to format the desktop 
-notification, which completes its role well. This project is not fully complete and will 
-be something I update as I learn more about utilizing the Linux command line, and the 
-languages I've used in this project.
+perfect for what it's used for. This is the first Bash script I've ever written, so don't be too 
+harsh, or do. It's cool either way. I, mostly, learned some basics of Bash scripts in a few days 
+in order to make this program a little bit more proficient and easy to use. Time well spent. 
+Lastly, I expanded this program with Python to format the desktop notification, which completes 
+its role well. This project is not fully complete and will be something I update as I learn more 
+about utilizing the Linux command line, and the languages I've used in this project.
 
 **ADDITIONS**: There's a lot to be updated to make this project exactly as I want it. My goal
-is to make this project easy to use, if anyone other than myself happens to use Payup.
+is to make this project easy to use, if anyone other than myself happens to use Payup. One large
+goal is to incorporate a small portion of the script to automate setting up crontab to run this 
+program better. 
 Please refer to the issues page for more details. 
 
 "They" say, in the beginning, to make things that you can use daily. So, here it is, a 
@@ -26,8 +33,9 @@ utilized command line protocols and libraries, like ncurses, TCP utilities, and 
 Most of Payup is written in C. Python is used to set up pop-up notifications, where the notify-send 
 command is used. Bash is used to automate periodically sending the desktop notifications with the nohup
 command (short for no hangup) that will allow the process to hang. Unless notifications are sent in short
-increments, it won't interrupt run time or process speed. After this program is run you'll see a file 
-within the directory this program lives that's called nohup.out, you can view this with: 
+increments, it won't interrupt run time or process speed. For now anything longer than 4 hours, between notifications, 
+will definitely impact computer processes since this program will run in the background. After this program is 
+run you'll see a file within the directory this program lives that's called nohup.out, you can view this with: 
 
 `vi nohup.out`
 
