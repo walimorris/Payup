@@ -45,11 +45,11 @@ while [ $hour -lt 0 ] || [ $hour -gt 4 ]; do
 done
 ./Payup
 if [ $hour == 1 ]; then
-    rest $w 
+    rest $W
 elif [ $hour == 2 ]; then
-    rest $x
+    rest $X
 elif [ $hour == 3 ]; then 
-    rest $y
+    rest $Y
 else
-    rest $z
+    rest $Z
 fi 
