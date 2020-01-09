@@ -8,10 +8,10 @@
 # Email: walimmorris@gmail.com
 # Initial Setup: Dec 21, 2019 
 
-w="60m"   #1 hour 
-x="120m"  #2 hours
-y="180m"  #3 hours 
-z="240m"  #4 hours 
+W="60m"   #1 hour 
+X="120m"  #2 hours
+Y="180m"  #3 hours 
+Z="240m"  #4 hours 
 	
 setup () { 
     printf "setting up dependencies..."
