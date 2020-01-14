@@ -32,7 +32,6 @@ int main() {
     startup(); 
     setup();  
     inputBill(bill);
-	
     return 0; 
 } 
 
@@ -81,13 +80,11 @@ void setup(void) {
     char use[] = "A project built for your personal use";
     char author[] = "By: Wali Morris";   
     char proceed[] = "Press <enter> to continue"; 	
-	
     initscr();
     if(has_colors() == FALSE) { 
 	printf("COLOR SUPPORT NEGATIVE\n"); 
-	exit(1); 
-	} 
-	
+	exit(1);
+    }
     start_color(); 
     init_pair(1, COLOR_WHITE, COLOR_BLACK); 
     attron(COLOR_PAIR(1)); 
@@ -109,7 +106,6 @@ void inputBill(struct Bill bill) {
     float *ptr_bal, *ptr_payment;	
     ptr_bal = &bill.balance; 
     ptr_payment = &bill.paymentDue; 
-
     initscr();
     attrset(A_DIM); 
     tab(11); 
